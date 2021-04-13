@@ -117,7 +117,7 @@ class App extends Component {
               onQuantityDecrement={this.handleQuantityDecrement}
             />
           </Route>
-          <Route path="/(|React-ecommerce-website)" exact>
+          <Route path="/(|React-ecommerce-website/)" exact>
             <MainBody
               product={this.state.products}
               searchResults={this.state.searchTerm}
